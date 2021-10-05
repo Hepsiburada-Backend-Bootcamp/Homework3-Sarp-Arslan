@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Api", "RecipeBook.Api\RecipeBook.Api.csproj", "{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Application", "RecipeBook.Application\RecipeBook.Application.csproj", "{BF5C4A90-4048-4543-A8D4-9E727667EDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Domain", "RecipeBook.Domain\RecipeBook.Domain.csproj", "{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Infastracture", "RecipeBook.Infastracture\RecipeBook.Infastracture.csproj", "{C5630611-4CC1-439A-B515-60DEDA18B923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5C4A90-4048-4543-A8D4-9E727667EDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5C4A90-4048-4543-A8D4-9E727667EDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5C4A90-4048-4543-A8D4-9E727667EDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5C4A90-4048-4543-A8D4-9E727667EDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5630611-4CC1-439A-B515-60DEDA18B923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5630611-4CC1-439A-B515-60DEDA18B923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5630611-4CC1-439A-B515-60DEDA18B923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5630611-4CC1-439A-B515-60DEDA18B923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
