@@ -146,3 +146,5 @@ C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\Serilog.Settings.Conf
 C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\MediatR.dll
+C:\Users\arsla\Desktop\hw2\RecipeBook.Api\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

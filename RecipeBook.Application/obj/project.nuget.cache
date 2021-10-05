@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qzeqzy+3R+h43JOAQgM5JE56Gr+OfNmkWVXtlZmQWoAkw7BSPL4ReDNhQ9jZjWLYUs9K57TGMprmVqhw+LdK2Q==",
+  "dgSpecHash": "nfwcRsSt/hyJyKVVWd664dQXJrzKhQcK+f1rUSunYCugc7m/Zbd9Mv2XKoW2fsWAHVmE/9mgzXzRdIMk/cl7lQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arsla\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\arsla\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\arsla\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\arsla\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\arsla\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
