@@ -19,3 +19,11 @@ Configure the postgres database with the followings.
 db username : postgres
 password : root
 ```
+
+## Docker Image
+
+Simply pull the docker image
+
+```sh
+docker pull arslansarp/sarparslanhomework2:latest
+```
