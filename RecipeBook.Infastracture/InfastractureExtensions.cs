@@ -23,5 +23,18 @@ namespace RecipeBook.Infastracture
 
             return services;
         }
+
+        public static IServiceCollection AddInfastructreModuleTestDB(this IServiceCollection services,
+            IConfiguration configuration)
+        {
+      
+            services.AddScoped<RecipeBookDbContext>();
+            services.AddDbContext<RecipeBookDbContext>(
+                options => options.UseInMemoryDatabase("RecipeBookInMemoryDb"));
+            services.AddScoped<IFoodRepository, FoodRepository>();
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
+
+            return services;
+        }
     }
 }

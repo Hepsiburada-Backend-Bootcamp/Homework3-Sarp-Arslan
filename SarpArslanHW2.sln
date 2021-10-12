@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Api", "RecipeBook.Api\RecipeBook.Api.csproj", "{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Api", "RecipeBook.Api\RecipeBook.Api.csproj", "{B63EBF9F-88CB-423C-A778-B8A92B01B0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Application", "RecipeBook.Application\RecipeBook.Application.csproj", "{BF5C4A90-4048-4543-A8D4-9E727667EDDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Application", "RecipeBook.Application\RecipeBook.Application.csproj", "{BF5C4A90-4048-4543-A8D4-9E727667EDDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Domain", "RecipeBook.Domain\RecipeBook.Domain.csproj", "{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Domain", "RecipeBook.Domain\RecipeBook.Domain.csproj", "{169C99B5-BEB4-4A08-ABDB-E5FBEB6A486A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Infastracture", "RecipeBook.Infastracture\RecipeBook.Infastracture.csproj", "{C5630611-4CC1-439A-B515-60DEDA18B923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Infastracture", "RecipeBook.Infastracture\RecipeBook.Infastracture.csproj", "{C5630611-4CC1-439A-B515-60DEDA18B923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Test", "RecipeBook.Test\RecipeBook.Test.csproj", "{C9E492AB-F404-4672-8868-FF28EB7D35CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,15 @@ Global
 		{C5630611-4CC1-439A-B515-60DEDA18B923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5630611-4CC1-439A-B515-60DEDA18B923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5630611-4CC1-439A-B515-60DEDA18B923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E492AB-F404-4672-8868-FF28EB7D35CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E492AB-F404-4672-8868-FF28EB7D35CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E492AB-F404-4672-8868-FF28EB7D35CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E492AB-F404-4672-8868-FF28EB7D35CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0846D090-F7B1-47AB-8357-FA27392A4433}
 	EndGlobalSection
 EndGlobal

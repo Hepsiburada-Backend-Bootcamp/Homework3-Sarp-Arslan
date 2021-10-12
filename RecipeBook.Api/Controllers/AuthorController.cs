@@ -66,7 +66,7 @@ namespace RecipeBookApi.Controllers
             var query = new DeleteAuthorCommand(id);
             var result = await _mediator.Send(query);
             _logger.LogInformation("Delete request for spesific author " + id);
-            return result != false ? Ok() : BadRequest();
+            return result != false ? Ok() : NotFound();
         }
     }
 }

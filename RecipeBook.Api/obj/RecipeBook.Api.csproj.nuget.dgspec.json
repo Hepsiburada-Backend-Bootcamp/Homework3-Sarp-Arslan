@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Api\\RecipeBook.Api.csproj": {}
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Api\\RecipeBook.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Api\\RecipeBook.Api.csproj": {
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Api\\RecipeBook.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Api\\RecipeBook.Api.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Api\\RecipeBook.Api.csproj",
         "projectName": "RecipeBook.Api",
-        "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Api\\RecipeBook.Api.csproj",
+        "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Api\\RecipeBook.Api.csproj",
         "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Api\\obj\\",
+        "outputPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\RecipeBook.Application.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\RecipeBook.Application.csproj"
               },
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
               },
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj"
               }
             }
           }
@@ -101,6 +101,16 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -125,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj": {
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\RecipeBook.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\RecipeBook.Application.csproj",
         "projectName": "RecipeBook.Application",
-        "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\RecipeBook.Application.csproj",
+        "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\RecipeBook.Application.csproj",
         "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Application\\obj\\",
+        "outputPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +159,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
               },
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj"
               }
             }
           }
@@ -179,6 +189,16 @@
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -200,14 +220,14 @@
         }
       }
     },
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
         "projectName": "RecipeBook.Domain",
-        "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
+        "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
         "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\obj\\",
+        "outputPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,6 +269,16 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -270,14 +300,14 @@
         }
       }
     },
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj",
         "projectName": "RecipeBook.Infastracture",
-        "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj",
+        "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\RecipeBook.Infastracture.csproj",
         "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Infastracture\\obj\\",
+        "outputPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Infastracture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -294,8 +324,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
+              "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj"
               }
             }
           }
@@ -320,11 +350,29 @@
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [

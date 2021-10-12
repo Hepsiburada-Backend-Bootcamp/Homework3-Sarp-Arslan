@@ -12,5 +12,14 @@ namespace RecipeBook.Domain.Entities
         public int Age { get; set; }
         public int Stars { get; set; }
         public virtual ICollection<Food> Foods { get; set; }
+
+        public Author(int Id) // for unit tests
+        {
+            this.Id = Id;
+        }
+
+        public Author()
+        {
+        }
     }
 }

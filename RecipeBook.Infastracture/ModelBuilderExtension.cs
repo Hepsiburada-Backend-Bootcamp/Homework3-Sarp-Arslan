@@ -7,6 +7,7 @@ namespace RecipeBook.Infastracture
     {
         public static void Seed(this ModelBuilder modelBuilder)
             {
+            /*
                 modelBuilder.Entity<Author>().HasData(
                     new Author { Id = 1, Name = "Sarp", Surname = "Arslan" ,Age = 25,Stars = 5},
                     new Author { Id = 2, Name = "Mike", Surname = "Corc" , Age = 22,Stars = 5},
@@ -20,7 +21,7 @@ namespace RecipeBook.Infastracture
                     new Food { Id = 4, AuthorId = 2, Name = "Dumm" },
                     new Food { Id = 5, AuthorId = 2, Name = "DumHamburger",},
                     new Food { Id = 6, AuthorId = 3, Name = "Kebap" }
-                );
+                ); */
             }
         }
 }

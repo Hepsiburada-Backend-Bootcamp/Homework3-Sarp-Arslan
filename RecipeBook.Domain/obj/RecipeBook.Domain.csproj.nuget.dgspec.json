@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {}
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
+    "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
         "projectName": "RecipeBook.Domain",
-        "projectPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
+        "projectPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\RecipeBook.Domain.csproj",
         "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsla\\Desktop\\hw2\\RecipeBook.Domain\\obj\\",
+        "outputPath": "C:\\Users\\arsla\\Desktop\\hw3\\RecipeBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,16 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [

@@ -27,10 +27,10 @@ namespace RecipeBookApi
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public virtual void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddApplicationModule();
+            services.AddApplicationModule(Configuration);
             services.AddInfastructreModule(Configuration);
             services.AddMediatR(typeof(Startup));
             
@@ -42,7 +42,7 @@ namespace RecipeBookApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public virtual void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
